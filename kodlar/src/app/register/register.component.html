@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KayıtOl</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .box{
+        background-color: white;
+        align-items: center;
+        text-align: center;
+        max-width: 400px;
+        border: 1px solid blue;
+        border-radius: 3px;
+        margin-left: 40%;
+        margin-top: 18%;
+        height: 400px;
+
+    }
+    .isim input{
+        background-color: white;
+        align-items: center;
+        width: 350px;
+        height: 25px;
+        border: 1px solid black;
+        border-radius: 2px;
+        margin-top: 3px;
+        margin-bottom:3px;
+    }
+    .isim label {
+     float:left ;
+     margin: 0px 23px 0px 23px;
+    }
+    .soyisim input{
+        background-color: white;
+        align-items: center;
+        width: 350px;
+        height: 25px;
+        border: 1px solid black;
+        border-radius: 2px;
+        margin-top: 3px;
+        margin-bottom:3px;
+    }
+    .soyisim label {
+     float:left ;
+     margin: 0px 23px 0px 23px;
+    }
+    .soyisim input{
+        background-color: white;
+        align-items: center;
+        width: 350px;
+        height: 25px;
+        border: 1px solid black;
+        border-radius: 2px;
+        margin-top: 3px;
+        margin-bottom:3px;
+    }
+    .soyisim label {
+     float:left ;
+     margin: 0px 23px 0px 23px;
+    }
+    .telefon_numarasi input{
+        background-color: white;
+        align-items: center;
+        width: 350px;
+        height: 25px;
+        border: 1px solid black;
+        border-radius: 2px;
+        margin-top: 3px;
+        margin-bottom:3px;
+    }
+    .telefon_numarasi label {
+     float:left ;
+     margin: 0px 23px 0px 23px;
+    }
+    .soyisim input{
+        background-color: white;
+        align-items: center;
+        width: 350px;
+        height: 25px;
+        border: 1px solid black;
+        border-radius: 2px;
+        margin-top: 3px;
+        margin-bottom:3px;
+    }
+    .soyisim label {
+     float:left ;
+     margin: 0px 23px 0px 23px;
+    }
+    .email input{
+        background-color: white;
+        align-items: center;
+        width: 350px;
+        height: 25px;
+        border: 1px solid black;
+        border-radius: 2px;
+        margin-top: 3px;
+        margin-bottom:3px;
+    }
+    .email label {
+     float:left ;
+     margin: 0px 23px 0px 23px;
+    }
+    .soyisim input{
+        background-color: white;
+        align-items: center;
+        width: 350px;
+        height: 25px;
+        border: 1px solid black;
+        border-radius: 2px;
+        margin-top: 3px;
+        margin-bottom:3px;
+    }
+    .soyisim label {
+     float:left ;
+     margin: 0px 23px 0px 23px;
+    }
+    .password input{
+        background-color: white;
+        align-items: center;
+        width: 350px;
+        height: 25px;
+        border: 1px solid black;
+        border-radius: 2px;
+        margin-top: 3px;
+        margin-bottom:3px;
+    }
+    .password label {
+     float:left ;
+     margin: 0px 23px 0px 23px;
+    }
+    .sub input{
+        background-color: blue;
+        color: white;
+        width: 100px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        align-items: left;
+        float: left;
+        margin: 0px 23px 0px 23px;
+        margin-top: 2px;
+    }
+    .link{
+        float: left;
+        margin-top: 50px;
+        text-align: left;
+    }
+    
+</style>
+<body>
+    <div class="box">
+        <form >
+            <h1>Kayıt Olma Ekranı</h1>
+            <div class="isim">
+                <label for="name">İsim</label><br><input type="text" id="name">
+            </div>
+            <div class="soyisim">
+                <label for="name">Soyİsim</label><br><input type="text" id="surname">
+            </div>
+            <div class="telefon_numarasi">
+                <label for="name">Telefon Numarası</label><br><input type="text" maxlength="10" id="phoneNo">
+            </div>
+            <div class="email">
+                <label for="name">E-Posta</label><br><input type="email" id="email">
+            </div>
+            <div class="password">
+                <label for="name">Şifre</label><br><input type="password" id="password">
+            </div>
+            <div class="sub">
+                <input type="submit" value="Kayit Ol">
+            </div>
+            <div class="link">
+                <a routerLink="app-login">Giriş Ekranına Git</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
